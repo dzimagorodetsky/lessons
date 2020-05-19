@@ -1,0 +1,11 @@
+
+
+// задание 3
+
+<script type="text/javascript">
+let i = 0
+while ( i < 100){
+    console.log(i ** 2);
+    i++
+}
+</script>
