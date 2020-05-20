@@ -1,3 +1,42 @@
+//задание 1
+<script type="text/javascript">
+    numb1 = Number(promt('Введите первое число'));
+    numb2 = Number(promt('Введите второе число'));
+    if(numb1 > numb2){
+        console.log(numb1);
+    }
+    if(numb1 < numb2){
+        console.log(numb2);
+    }
+    if(numb1 == numb2){
+        console.log('Значения равны между собой');
+    }
+</script>
+
+//задание 2
+
+2)
+
+<script type="text/javascript">
+for (let i = 0; i < 100; i++){
+    console.log(i ** 2);
+}
+</script>
+
+2.1)
+
+2.2)
+
+a = []
+function myfunction(a){
+    return a 
+}
+
+2.3)
+a = []
+function calcsum (a){
+    result = sum()
+}
 
 
 // задание 3
