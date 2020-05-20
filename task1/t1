@@ -34,8 +34,11 @@ function myfunction(a){
 
 2.3)
 a = []
+let result = 0;
 function calcsum (a){
-    result = sum()
+   for (let elements of a){
+   result = result + element
+   }
 }
 
 
