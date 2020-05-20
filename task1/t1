@@ -24,23 +24,29 @@ for (let i = 0; i < 100; i++){
 </script>
 
 2.1)
+let array =[];
+for (i = 0; i < 100; i++){
+array[i] = i**2
+}
 
 2.2)
-
-a = []
-function myfunction(a){
-    return a 
+function showarray ( ) {
+let array = [];
+for (i=0; i<100; i++){
+array[i] = i**2
+}
+return array;
 }
 
 2.3)
-a = []
-let result = 0;
-function calcsum (a){
-   for (let elements of a){
-   result = result + element
-   }
+function sum(array){
+  let result= 0;
+  for(let elements of array){
+    result = result + elements;
+  }
+return result 
 }
-
+sum(array)
 
 // задание 3
 
