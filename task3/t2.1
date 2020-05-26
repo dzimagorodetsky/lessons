@@ -1,0 +1,24 @@
+<script>
+let users = [
+{name: "Masha", age: 20},
+{name: "Katya", age: 21},
+{name: "Olya", age: 22}
+];
+function adultFilter(users, func){
+  result = [];
+  for(let user of users){
+    if (user.age > 18){
+    result.push(user);
+    }
+  }
+return result;
+}
+console.log(adultFilter(users, func2));
+  function func2(name){
+  if (name[0] === 'S'){
+  return true;
+  } else {
+  return false;
+  }
+}
+</script>
