@@ -1,27 +1,6 @@
-//задание 2
-let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0];
-function findpositivenumbers(arr) {
-   let result = [];
-     for(let elements of arr){
-     
-    if(elements > 0){
-    result.push(elements)
-}
-}
-return result
-}
-findpositivenumbers(arr)
+<script type="text/javascript">
 
-//задание 3
-let arr = [5, 4, 3, 8, 0];
-let a = 0;
-function filterfor(arr, a){
-  let result = [];
-for(let elements of arr){
-   if(elements >= a){
-   results.push(elements)
-   }
+for (let i = 0; i < 100; i++){
+    console.log(i ** 2);
 }
-return result
-}
-filterfor(arr, a)
+</script>
