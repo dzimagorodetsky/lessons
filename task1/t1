@@ -1,4 +1,3 @@
-//задание 1
 <script type="text/javascript">
     numb1 = Number(promt('Введите первое число'));
     numb2 = Number(promt('Введите второе число'));
@@ -11,49 +10,4 @@
     if(numb1 == numb2){
         console.log('Значения равны между собой');
     }
-</script>
-
-//задание 2
-
-2)
-
-<script type="text/javascript">
-for (let i = 0; i < 100; i++){
-    console.log(i ** 2);
-}
-</script>
-
-2.1)
-let array =[];
-for (i = 0; i < 100; i++){
-array[i] = i**2
-}
-
-2.2)
-function showarray ( ) {
-let array = [];
-for (i=0; i<100; i++){
-array[i] = i**2
-}
-return array;
-}
-
-2.3)
-function sum(array){
-  let result= 0;
-  for(let elements of array){
-    result = result + elements;
-  }
-return result 
-}
-sum(array)
-
-// задание 3
-
-<script type="text/javascript">
-let i = 0
-while ( i < 100){
-    console.log(i ** 2);
-    i++
-}
 </script>
