@@ -1,0 +1,12 @@
+let arr = [5, 4, 3, -3, -10, -1, 8, -20, 0];
+function findpositivenumbers(arr) {
+   let result = [];
+     for(let elements of arr){
+     
+    if(elements > 0){
+    result.push(elements)
+}
+}
+return result
+}
+findpositivenumbers(arr)
