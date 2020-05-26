@@ -1,0 +1,15 @@
+<script>
+let animal = {
+name: "lion",
+age: 5,
+weight: 600,
+  big: function(){
+    if (weight > 500){
+    return true;
+    } else {
+    return false
+    }
+  }
+}
+console.log(animal.big());
+</script>
