@@ -1,0 +1,8 @@
+<script>
+  let user = {};
+    let userName = prompt("Your name?");
+    let userAge = +prompt("Your age?");
+    user.name = userName;
+    user.age = userAge;
+  console.log(user);
+</script>
