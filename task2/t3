@@ -1,0 +1,12 @@
+let arr = [5, 4, 3, 8, 0];
+let a = 0;
+function filterfor(arr, a){
+  let result = [];
+for(let elements of arr){
+   if(elements >= a){
+   results.push(elements)
+   }
+}
+return result
+}
+filterfor(arr, a)
