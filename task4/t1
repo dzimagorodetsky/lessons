@@ -1,0 +1,7 @@
+function newTag (tagName, className, content) {
+                let p = document.createElement('p');
+                
+                p.setAttribute('class', jack(className));
+                p.textContent = jack(content);
+                return p;
+            }
