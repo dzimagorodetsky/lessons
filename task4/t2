@@ -1,0 +1,5 @@
+let paragraph = document.querySelector('body');
+    let p = addElement('p', 'Олег Павлович');
+      p.style.fontSize = '36px';
+      p.style.fontWeight = 'bold';
+    paragraph.appendChild(p);
