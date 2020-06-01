@@ -1,0 +1,24 @@
+let names = [
+ {name: "Женя", order: true},
+ {name: "Кристина", order: true},
+ {name: "Павел", order: false},
+ {name: "Виолетта", order: false},
+ {name: "Костя", order: true}
+ ]; 
+  
+let ulElement = addElement('ul', 'listOfnames', '');
+   namesFind.appendChild(ulElement);
+   let ulFind = document.querySelector('ul');
+
+   for(let i = 0; i < names.length; i++) {
+   let newLi;
+       if(names[i].order == true) {
+          let result = 'Клиент ' + names[i].name + 'Оплатил заказ';
+          newLi = addElement('li', '', result);
+          ulFind.appendChild(newLi);
+       } else {
+          let result = 'Клиент ' + names[i].name + 'Отменил заказ';
+          newLi = addElement('li', '', result);
+          ulFind.appendChild(newLi);
+       }
+    }
